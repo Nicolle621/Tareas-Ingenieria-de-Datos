@@ -5,7 +5,7 @@ from datetime import datetime
 def main():
     archivo = "lista_clientes.csv"  # Cambia si el tuyo tiene otro nombre
 
-    print("📂 Cargando datos...")
+    print("Cargando datos...")
     df = pd.read_csv(archivo)
 
     # Renombrar columnas
@@ -63,4 +63,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
