@@ -94,4 +94,4 @@ select * from cliente;
 
 describe mascota;
 select * from cliente;
-insert into mascota values (" ",
+insert into mascota values (" ",..
