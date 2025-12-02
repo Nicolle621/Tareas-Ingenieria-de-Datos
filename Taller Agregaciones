@@ -1,0 +1,369 @@
+//-----------------------------------
+//           PUNTO 1-2-3
+//-----------------------------------
+
+db.bands.insertOne({
+  name: "Mon Laferte",
+  country: "Mexico",
+  albums: [
+    {
+      title: "FEMME FATALE",
+      dateCreated: new Date("2025-10-24T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Femme Fatale",
+          duration: "4:10"
+        },
+        {
+          songName: "Mi Hombre",
+          duration: "3:17"
+        },
+        {
+          songName: "Otra Noche de Llorar",
+          duration: "3:39"
+        },
+        {
+          songName: "Ocupa mi Piel",
+          duration: "3:45"
+        },
+        {
+          songName: "Veracruz",
+          duration: "4:22"
+        }
+      ]
+    },
+    {
+      title: "Mon Laferte (Vol.1)",
+      dateCreated: new Date("2015-01-31T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Tormento",
+          duration: "4:36"
+        },
+        {
+          songName: "Amor Completo",
+          duration: "4:01"
+        },
+        {
+          songName: "Tu Falta De Querer",
+          duration: "4:38"
+        },
+        {
+          songName: "Si Tu Me Quisieras",
+          duration: "3:22"
+        },
+        {
+          songName: "El Cristal",
+          duration: "3:01"
+        }
+      ]
+    }
+  ]
+})
+
+db.bands.insertOne(
+  {
+  name: "The Weeknd",
+  country: "Canada",
+  url: "https://www.theweeknd.com",
+  albums: [
+    {
+      title: "Starboy",
+      dateCreated: new Date("2016-09-21T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Starboy",
+          duration: "3:50"
+        },
+        {
+          songName: "Party Monster",
+          duration: "4:09"
+        },
+        {
+          songName: "False Alarm",
+          duration: "3:40"
+        },
+        {
+          songName: "Reminder",
+          duration: "3:38"
+        },
+        {
+          songName: "Stargirl Interlude",
+          duration: "1:51"
+        }
+      ]
+    },
+    {
+      title: "Beauty Behind The Madness",
+      dateCreated: new Date("2015-08-28T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Real Life",
+          duration: "3:43"
+        },
+        {
+          songName: "Losers",
+          duration: "4:41"
+        },
+        {
+          songName: "Tell Your Friends",
+          duration: "5:34"
+        },
+        {
+          songName: "Often",
+          duration: "4:09"
+        },
+        {
+          songName: "The Hills",
+          duration: "4:02"
+        }
+      ]
+    }
+  ]
+  }
+)
+
+{
+  _id: ObjectId('69095c55c6e883cf42e0b6a3'),
+  name: "Muse",
+  country: "Inglaterra",
+  albums: [
+    {
+      title: "The 2nd Law",
+      dateCreated: new Date("2012-09-28T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Supremacy",
+          duration: "4:55"
+        },
+        {
+          songName: "Madness",
+          duration: "4:41"
+        },
+        {
+          songName: "Panic Station",
+          duration: "3:04"
+        },
+        {
+          songName: "Survival",
+          duration: "4:17"
+        },
+        {
+          songName: "Follow me",
+          duration: "3:50"
+        }
+      ]
+    },
+    {
+      title: "Black Holes and Revelations",
+      dateCreated: new Date("2006-06-19T00:00:00.000Z")
+    }
+  ]
+}
+
+name: "Camila",
+  country: "Mexico",
+  url: "N/A",
+  albums: [
+    {
+      title: "Elypse",
+      songs: [
+        {
+          songName: "Decidiste Dejarme",
+          duration: "3:30"
+        },
+        {
+          songName: "Perdon",
+          duration: "4:24"
+        },
+        {
+          songName: "Quedate",
+          duration: "3:30"
+        },
+        {
+          songName: "Me Enseñaste a Odiar",
+          duration: "3:28"
+        },
+        {
+          songName: "Tu",
+          duration: "5:33"
+        }
+      ]
+    },
+    {
+      title: "Dejarte De Amar",
+      songs: [
+        {
+          songName: "Mientes",
+          duration: "3:25"
+        },
+        {
+          songName: "Entre Tus Alas",
+          duration: "4:06"
+        },
+        {
+          songName: "Besame",
+          duration: "4:12"
+        },
+        {
+          songName: "Maya",
+          duration: "2:57"
+        },
+        {
+          songName: "Alejate De Mi",
+          duration: "4:18"
+        }
+      ]
+    }
+  ]
+}
+
+name: "Sia",
+  country: "Australia",
+  albums: [
+    {
+      title: "Everyday Is Christmas",
+      dateCreated: new Date("2017-11-17T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Santa's Coming for Us",
+          duration: "3:25"
+        },
+        {
+          songName: "Candy Cane Lane",
+          duration: "3:32"
+        },
+        {
+          songName: "Snowman",
+          duration: "2:45"
+        },
+        {
+          songName: "Snowflake",
+          duration: "4:02"
+        },
+        {
+          songName: "Ho Ho Ho",
+          duration: "3:25"
+        }
+      ]
+    },
+    {
+      title: "LSD",
+      dateCreated: new Date("2019-04-12T00:00:00.000Z"),
+      songs: [
+        {
+          songName: "Genius",
+          duration: "2:43"
+        },
+        {
+          songName: "Thunderclouds",
+          duration: "3:34"
+        },
+        {
+          songName: "No New Friends",
+          duration: "4:06"
+        },
+        {
+          songName: "Heaven Can Wait",
+          duration: "3:38"
+        },
+        {
+          songName: "Audio",
+          duration: "2:42"
+        }
+      ]
+    }
+  ]
+}
+
+//-----------------------------------
+//             PUNTO  4
+//-----------------------------------
+
+db.bands.find()
+
+//-----------------------------------
+//             PUNTO  5
+//-----------------------------------
+
+db.bands.updateOne(
+  {name: "The Weeknd"},
+  {$unset: {"albums": ""}}
+)
+
+//-----------------------------------
+//             PUNTO  6
+//-----------------------------------
+
+db.bands.updateOne(
+  {name: "Sia"},
+  {$unset: {"albums.1.songs": ""}}
+)
+
+// Agregar ventas a los álbumes
+
+db.bands.updateOne(
+  {name: "Sia"},
+  {$set: {"albums.1.sells": 1231412}}
+)
+
+db.bands.updateOne(
+  {name: "Sia"},
+  {$set: {"albums.0.sells": 1235312}}
+)
+
+db.bands.updateOne(
+  {name: "The Weeknd"},
+  {$set: {"albums.1.sells": 9321938}}
+)
+
+db.bands.updateOne(
+  {name: "The Weeknd"},
+  {$set: {"albums.0.sells": 9821938}}
+)
+
+db.bands.updateOne(
+  {name: "Muse"},
+  {$set: {"albums.1.sells": 12203}}
+)
+
+db.bands.updateOne(
+  {name: "Muse"},
+  {$set: {"albums.0.sells": 15203}}
+)
+
+db.bands.updateOne(
+  {name: "Camila"},
+  {$set: {"albums.1.sells": 1520300}}
+)
+
+db.bands.updateOne(
+  {name: "Camila"},
+  {$set: {"albums.0.sells": 1220300}}
+)
+
+db.bands.updateOne(
+  {name: "Mon Laferte"},
+  {$set: {"albums.1.sells": 400051}}
+)
+
+db.bands.updateOne(
+  {name: "Mon Laferte"},
+  {$set: {"albums.0.sells": 820051}}
+)
+
+// Mostrar la suma por banda 
+
+db.bands.aggregate(
+  [
+    {$unwind: "$albums"}, {$group: {_id: "$name", totalSells: {$sum: "$albums.sells"}}}, {$sort: {totalSells: -1}}
+  ]
+)
+
+// Mostrar la suma de ventas por países
+
+db.bands.aggregate(
+  [
+    {$unwind: "$albums"}, {$group: {_id: "$country", totalSells: {$sum: "$albums.sells"}}}, {$sort: {totalSells: -1}}
+  ]
+)
